@@ -1,0 +1,123 @@
+@media only screen and (max-width : 992px) {
+    .logo-product{
+        display: none;
+    }
+    .title-book{
+        font-size: 18px;
+    }
+    .author-book{
+        font-size: 15px;
+    }
+    .fa-cart-plus{
+        font-size: 30px;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+
+}
+a:hover{
+    color: rgb(48, 217, 230);
+    cursor: pointer;
+}
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:double;
+    border-width: 1px;
+    width: 50%;
+    color: red;
+
+}
+.header{
+    background-color: #2c55a5;
+}
+.header a{
+    font-size:small;
+    color: rgba(255, 255, 255, 0.801);
+}
+.mid-header{
+    background: #2c55a5 url(../img/line-header.png) no-repeat bottom; 
+    padding: 15px 0 15px;
+    margin-top: -30px;
+
+}
+.cart{
+    margin-right: 100px !important;
+}
+.cart a{
+    display: inline;
+    font-size:large;
+    color: white
+}
+.fa-cart-plus{
+    border: 1px solid white;
+    background: #fff;
+    color:cadetblue;
+}
+.fa-cart-plus:hover{
+    border-radius: 50px;
+    background: orange;
+}
+.course ul{
+    border: solid 5px #2c55a5;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+}
+.course ul li{
+    background: white;
+    line-height: 30px;
+}
+.course ul > li:hover{
+    background: rgb(2, 139, 139);
+}
+.course-product{
+    background: #2c55a5;
+    color: white;
+}
+.title-product{
+    /* background: #2c55a5; */
+    padding: 15px 15px 15px 30px;
+    color: #fff;
+    border-top: 1px solid;
+    border-right: 0px transparent;
+    border-left:0px transparent ;
+    background-image: linear-gradient(to left, #fe2c07, #ff7d01, #ffc700, #5aba00, #01cfff, #0172ff, #7d42ce);
+
+
+}
+.product .info-product{
+    height: 100%;
+}
+.product .info-product .title-book , .author-book , .cost-sale , .cost{
+   padding-left: 15px;
+}
+.product .info-product:hover{
+   box-shadow:  5px 5px 5px 5px gray;
+}
+.logo-product img{
+    height: 100%;
+}
+.see-more{
+    text-align: center;
+    padding: 5px 15px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    font-weight: bold;
+    color: orange;
+}
+.see-more:hover{
+    background: orange;
+    color: white;
+    font-weight: bold;
+}
